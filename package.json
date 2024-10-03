@@ -1,0 +1,14 @@
+{
+  "name": "vilo",
+  "version": "1.0.0",
+  "description": "vilo.com",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "npx tailwindcss -i ./src/input.css -o ./public/output.css --watch"
+  },
+  "author": "vilo.com",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.13"
+  }
+}
